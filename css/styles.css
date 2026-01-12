@@ -1,0 +1,13 @@
+/* Minimal custom styling – Bootstrap does most of the work */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
