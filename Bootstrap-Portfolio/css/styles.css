@@ -1,0 +1,195 @@
+/* Global Styles to apply default styles to all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navigation Bar*/ 
+header {
+  background: #2c3e50;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 1rem;
+  text-align: center;
+}
+header h1 {
+  color: #ecf0f1;
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f39c12;
+}
+
+/* Main Heading */
+main h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+/* About Section */
+#about {
+  text-align: center;
+  padding: 2rem;
+  background: #ecf0f1;
+}
+
+#about img {
+  border-radius: 50%;
+  margin: 1rem 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  height: auto;
+}
+
+/* Projects Section */
+#projects {
+  padding: 2rem;
+}
+
+#projects h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+#projects article {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#projects h3 {
+  margin: 1rem 0;
+  color: #f39c12;
+}
+
+#projects p {
+  margin-bottom: 1rem;
+}
+
+#projects img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+  /* Contact Section */
+#contact {
+  background: #ecf0f1;
+  padding: 2rem;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+form label {
+  margin: 0.5rem 0 0.2rem;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  padding: 0.7rem;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+form input[type="submit"] {
+  background: #2c3e50;
+  color: #fff;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background: #f39c12;
+}
+
+/* Footer */
+footer {
+  background: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+footer p a {
+  color: #f39c12;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  /* Add more padding for larger screens */
+  #about,
+  #projects,
+  #contact {
+    padding: 4rem 8rem;
+  }
+  /* Allow larger images on bigger screens */
+  #projects img {
+    max-width: 400px;
+  }
+}
