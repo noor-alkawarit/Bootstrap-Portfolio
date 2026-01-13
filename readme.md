@@ -22,5 +22,7 @@ This is my personal **Bootstrap Portfolio** project. I created this project to p
 
 ## Deployment
 
+Deployment: https://noor-alkawarit.github.io/Bootstrap-Portfolio/
 
+GitHub: https://github.com/noor-alkawarit/Bootstrap-Portfolio.git 
 
